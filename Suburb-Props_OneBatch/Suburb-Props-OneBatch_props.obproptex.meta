@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 18207bb136b6537489468004a495b749
+ScriptedImporter:
+  fileIDToRecycleName:
+    2800000: Texture
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 4d5178f08f64c41f08f871915f905705, type: 3}

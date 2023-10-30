@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MicroSplat
+  m_Shader: {fileID: 4800000, guid: c81b992878ebe064b85ead88d9f6e3da, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Control0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNoise:
+        m_Texture: {fileID: 2800000, guid: c3e57cb2426d34f64af1fc986aa89fcf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 18700000, guid: db94cb938da0fbc43a594523c1fe6c3b, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistanceNoise:
+        m_Texture: {fileID: 2800000, guid: c3e57cb2426d34f64af1fc986aa89fcf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalNoise:
+        m_Texture: {fileID: 2800000, guid: cfa942d94204a4aeb970870316799af2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalNoise2:
+        m_Texture: {fileID: 2800000, guid: 0dfc76f6aeb2a4b4ab78b17faf5a32ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalNoise3:
+        m_Texture: {fileID: 2800000, guid: 993678365290144589d31930a617b969, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalOriginal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalSAO:
+        m_Texture: {fileID: 18700000, guid: 17cf14d3e10e07649976e4aa552ab87b, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PerPixelNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PerTexProps:
+        m_Texture: {fileID: 28415459623721830, guid: cd2b5b5dd6618c545ae4cb5995403406,
+          type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothAO:
+        m_Texture: {fileID: 18700000, guid: 5f1d461b8ec481745806641a5ebdfc3a, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainDesc:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainHolesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Contrast: 0.8
+    - _DistanceResampleAlbedoStrength: 1
+    - _SampleCountDiv: 90
+    - _TBNoiseScale: 1
+    - _TriplanarContrast: 8
+    m_Colors:
+    - _DetailNoiseScaleStrengthFade: {r: 4, g: 0.5, b: 5, a: 0}
+    - _DistanceNoiseScaleStrengthFade: {r: 1, g: 0.5, b: 5, a: 30}
+    - _DistanceResampleNoiseParams: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _NormalNoiseScaleStrength: {r: 8, g: 0.5, b: 0, a: 0}
+    - _NormalNoiseScaleStrength2: {r: 8, g: 0.5, b: 0, a: 0}
+    - _NormalNoiseScaleStrength3: {r: 8, g: 0.5, b: 0, a: 0}
+    - _ResampleDistanceParams: {r: 0.2, g: 2, b: 20, a: 0}
+    - _TerrainBlendParams: {r: 1, g: 0.4, b: 0, a: 0}
+    - _TerrainBounds: {r: 0, g: 0, b: 512, a: 512}
+    - _TriplanarUVScale: {r: 2, g: 2, b: 0, a: 0}
+    - _UVScale: {r: 53.33333, g: 53.33333, b: 0, a: 0}

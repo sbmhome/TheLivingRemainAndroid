@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601da2e244aaeb2408b3dd50364b0bce, type: 3}
+  m_Name: TerrainTextures
+  m_EditorClassIdentifier: 
+  groundSurfaces:
+  - textureName: RockySandyGround_Albedo
+    groundType: 3
+  - textureName: MuddlyDirt_1_Albedo
+    groundType: 3
+  - textureName: Road_albedo 1
+    groundType: 5
+  - textureName: Grass_a
+    groundType: 4
+  - textureName: Grass_A_A
+    groundType: 4
+  - textureName: Road_albedo
+    groundType: 5
+  - textureName: floor_grass_d
+    groundType: 4
+  - textureName: Floor_ConcretePlates_d
+    groundType: 5
+  - textureName: Moss_Tiled_d
+    groundType: 3
+  - textureName: GrassCountryside_Albedo
+    groundType: 4
+  - textureName: JungleGrassFloor_Albedo
+    groundType: 4
+  - textureName: Grass_Lawn_diffuse
+    groundType: 4
+  - textureName: RockSurfaceRough_Albedo
+    groundType: 5
+  - textureName: Grass_d
+    groundType: 4
+  - textureName: Ground_Grass_1024_01_DIF
+    groundType: 4
+  - textureName: T_forest_ground_grass_01_A_SM
+    groundType: 4
+  - textureName: T_ground_meadow_soil_01_A_SM
+    groundType: 3
+  - textureName: T_forest_ground_needles_01_A_SM
+    groundType: 4
+  - textureName: T_ground_meadow_grass_01_A_SM
+    groundType: 4
+  - textureName: T_ground_meadow_grass_02_A_SM
+    groundType: 4
+  - textureName: T_forest_ground_leaves_01_A_SM
+    groundType: 4
+  - textureName: DryStreamBedPeebles_Albedo
+    groundType: 6
+  - textureName: MuddyDirt2_Albedo
+    groundType: 3
+  - textureName: MudBrown_Albedo
+    groundType: 3
+  - textureName: RustyGarbageAsphalt_Albedo
+    groundType: 5
+  - textureName: SewerSoil_Albedo_Water
+    groundType: 6
+  - textureName: SewerSoil_Albedo_WaistHigh
+    groundType: 11
+  - textureName: WetMossy_Albedo_WaistHigh
+    groundType: 11
+  - textureName: RockySandyGround_Albedo_Water
+    groundType: 6
+  - textureName: metal_01_a
+    groundType: 3
+  - textureName: Floor_Sidewalk_d
+    groundType: 5
+  - textureName: PineForestFloor04_Albedo
+    groundType: 3
