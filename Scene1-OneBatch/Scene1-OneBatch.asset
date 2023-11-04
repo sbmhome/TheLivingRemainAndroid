@@ -15,11 +15,7 @@ MonoBehaviour:
   generateLightmapUVs: 1
   diffuseIsLinear: 0
   packingMode: 0
-  combinedMaterials:
-  - {fileID: 2100000, guid: 39113802a54710843a9e999fe7f9081d, type: 2}
-  - {fileID: 2100000, guid: 0d19f2e1f2bfd97499746f61942c1966, type: 2}
-  - {fileID: 2100000, guid: a8c2e64071c0fcd44b3822562c2a4255, type: 2}
-  - {fileID: 2100000, guid: 04d843c35bcc4d24ca8128e141bd464d, type: 2}
+  combinedMaterials: []
   prefabs:
   - {fileID: 1823099410341708, guid: fc8766e45987e7e4691fe95dd200514d, type: 3}
   - {fileID: 1374927080415666, guid: 0df28c29b5c4b2e4186bee951d5937ab, type: 3}
@@ -39,7 +35,7 @@ MonoBehaviour:
   - {fileID: 1985435141512938, guid: 3f748ff70884bfd4d9c463305fbfb3dc, type: 3}
   - {fileID: 1444124356237664, guid: 49e6a27dca179a149be198657153dec1, type: 3}
   - {fileID: 1129664083512720, guid: e737369f5b82ed04cba5a1fff9bf31fd, type: 3}
-  hash: 971243520
+  hash: -1734832960
   defaultTextureSettings:
     albedoSettings:
       textureWidth: 2048
@@ -130,27 +126,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 46d7d6bd4c8140f4d89bfdf08980290e, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 228d08464836b744180a50f9a8f4f598, type: 2}
-      - {fileID: 2100000, guid: 01bd0af2dc82e77449d05b2eb9a15d4d, type: 2}
-      - {fileID: 2100000, guid: 0dc5a7f1c331e344399667d8d04b765e, type: 2}
-      originalFilter: {fileID: 33169634715982836, guid: fc8766e45987e7e4691fe95dd200514d,
-        type: 3}
-      originalRenderer: {fileID: 23511012412114702, guid: fc8766e45987e7e4691fe95dd200514d,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 0583bfd81ef277f4192c404b52833773, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 228d08464836b744180a50f9a8f4f598, type: 2}
-      - {fileID: 2100000, guid: 0dc5a7f1c331e344399667d8d04b765e, type: 2}
-      - {fileID: 2100000, guid: 01bd0af2dc82e77449d05b2eb9a15d4d, type: 2}
-      originalFilter: {fileID: 33838108860214890, guid: 0df28c29b5c4b2e4186bee951d5937ab,
-        type: 3}
-      originalRenderer: {fileID: 23237753980941090, guid: 0df28c29b5c4b2e4186bee951d5937ab,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 228d08464836b744180a50f9a8f4f598, type: 2}
       meshAttrib:
@@ -313,27 +289,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 46d7d6bd4c8140f4d89bfdf08980290e, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 228d08464836b744180a50f9a8f4f598, type: 2}
-      - {fileID: 2100000, guid: 01bd0af2dc82e77449d05b2eb9a15d4d, type: 2}
-      - {fileID: 2100000, guid: 0dc5a7f1c331e344399667d8d04b765e, type: 2}
-      originalFilter: {fileID: 33169634715982836, guid: fc8766e45987e7e4691fe95dd200514d,
-        type: 3}
-      originalRenderer: {fileID: 23511012412114702, guid: fc8766e45987e7e4691fe95dd200514d,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 0583bfd81ef277f4192c404b52833773, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 228d08464836b744180a50f9a8f4f598, type: 2}
-      - {fileID: 2100000, guid: 0dc5a7f1c331e344399667d8d04b765e, type: 2}
-      - {fileID: 2100000, guid: 01bd0af2dc82e77449d05b2eb9a15d4d, type: 2}
-      originalFilter: {fileID: 33838108860214890, guid: 0df28c29b5c4b2e4186bee951d5937ab,
-        type: 3}
-      originalRenderer: {fileID: 23237753980941090, guid: 0df28c29b5c4b2e4186bee951d5937ab,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 01bd0af2dc82e77449d05b2eb9a15d4d, type: 2}
       meshAttrib:
@@ -496,27 +452,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 46d7d6bd4c8140f4d89bfdf08980290e, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 228d08464836b744180a50f9a8f4f598, type: 2}
-      - {fileID: 2100000, guid: 01bd0af2dc82e77449d05b2eb9a15d4d, type: 2}
-      - {fileID: 2100000, guid: 0dc5a7f1c331e344399667d8d04b765e, type: 2}
-      originalFilter: {fileID: 33169634715982836, guid: fc8766e45987e7e4691fe95dd200514d,
-        type: 3}
-      originalRenderer: {fileID: 23511012412114702, guid: fc8766e45987e7e4691fe95dd200514d,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 0583bfd81ef277f4192c404b52833773, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 228d08464836b744180a50f9a8f4f598, type: 2}
-      - {fileID: 2100000, guid: 0dc5a7f1c331e344399667d8d04b765e, type: 2}
-      - {fileID: 2100000, guid: 01bd0af2dc82e77449d05b2eb9a15d4d, type: 2}
-      originalFilter: {fileID: 33838108860214890, guid: 0df28c29b5c4b2e4186bee951d5937ab,
-        type: 3}
-      originalRenderer: {fileID: 23237753980941090, guid: 0df28c29b5c4b2e4186bee951d5937ab,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 0dc5a7f1c331e344399667d8d04b765e, type: 2}
       meshAttrib:
@@ -679,72 +615,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 4fc05032ef92c3b4caf96aec1ade5a12, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 5eb08f5c8ed9d0a4fbfbf8b2909bfb0a, type: 2}
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: b277e99425495eb4aab5faba3baa3694, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 4094283981735892676, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalRenderer: {fileID: 4103992706707609376, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 4fc05032ef92c3b4caf96aec1ade5a12, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 5eb08f5c8ed9d0a4fbfbf8b2909bfb0a, type: 2}
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: b277e99425495eb4aab5faba3baa3694, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 4094283981735892676, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalRenderer: {fileID: 4103992706707609376, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: a1eaf03eddc94834aad68a5a2616cb08, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3306268, guid: 90384f384d956454ab5335a236e8614c, type: 3}
-      originalRenderer: {fileID: 2386384, guid: 90384f384d956454ab5335a236e8614c,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: d373f9b1d8f1042459e49c8184e0e1c7, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3356862, guid: 9688d44a1d3705b4d8c944ae5895316e, type: 3}
-      originalRenderer: {fileID: 2398142, guid: 9688d44a1d3705b4d8c944ae5895316e,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 3dfe77aa89745cc44a1a0258f843be25, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3388782, guid: 80c29f4bcb6b88c4eada2c7a089d946f, type: 3}
-      originalRenderer: {fileID: 2380832, guid: 80c29f4bcb6b88c4eada2c7a089d946f,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 8681bb134f505814f8356124e6059131, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      originalFilter: {fileID: 3336826, guid: 796a86b60c2286147a700ad9361769c5, type: 3}
-      originalRenderer: {fileID: 2383952, guid: 796a86b60c2286147a700ad9361769c5,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 5eb08f5c8ed9d0a4fbfbf8b2909bfb0a, type: 2}
       meshAttrib:
@@ -1345,19 +1216,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 4fc05032ef92c3b4caf96aec1ade5a12, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 5eb08f5c8ed9d0a4fbfbf8b2909bfb0a, type: 2}
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: b277e99425495eb4aab5faba3baa3694, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 4094283981735892676, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalRenderer: {fileID: 4103992706707609376, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: b277e99425495eb4aab5faba3baa3694, type: 2}
       meshAttrib:
@@ -1493,90 +1352,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 4fc05032ef92c3b4caf96aec1ade5a12, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 5eb08f5c8ed9d0a4fbfbf8b2909bfb0a, type: 2}
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: b277e99425495eb4aab5faba3baa3694, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 4094283981735892676, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalRenderer: {fileID: 4103992706707609376, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 3aef4e74afb2e5f46b26294777e0df52, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      - {fileID: 2100000, guid: 4e5bc8b5228b1f540b405631624c351f, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      originalFilter: {fileID: 8398175899823133169, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalRenderer: {fileID: 8405493161180643085, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: a1eaf03eddc94834aad68a5a2616cb08, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3306268, guid: 90384f384d956454ab5335a236e8614c, type: 3}
-      originalRenderer: {fileID: 2386384, guid: 90384f384d956454ab5335a236e8614c,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: d373f9b1d8f1042459e49c8184e0e1c7, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3356862, guid: 9688d44a1d3705b4d8c944ae5895316e, type: 3}
-      originalRenderer: {fileID: 2398142, guid: 9688d44a1d3705b4d8c944ae5895316e,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 3dfe77aa89745cc44a1a0258f843be25, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3388782, guid: 80c29f4bcb6b88c4eada2c7a089d946f, type: 3}
-      originalRenderer: {fileID: 2380832, guid: 80c29f4bcb6b88c4eada2c7a089d946f,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 8681bb134f505814f8356124e6059131, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      originalFilter: {fileID: 3336826, guid: 796a86b60c2286147a700ad9361769c5, type: 3}
-      originalRenderer: {fileID: 2383952, guid: 796a86b60c2286147a700ad9361769c5,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: e781d4503da321d4ba7345bf9bda99a5, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      originalFilter: {fileID: 33610037669981584, guid: 49e6a27dca179a149be198657153dec1,
-        type: 3}
-      originalRenderer: {fileID: 23107631226059766, guid: 49e6a27dca179a149be198657153dec1,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: e781d4503da321d4ba7345bf9bda99a5, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      originalFilter: {fileID: 33610037669981584, guid: 49e6a27dca179a149be198657153dec1,
-        type: 3}
-      originalRenderer: {fileID: 23107631226059766, guid: 49e6a27dca179a149be198657153dec1,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
       meshAttrib:
@@ -2201,96 +1977,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 4fc05032ef92c3b4caf96aec1ade5a12, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 5eb08f5c8ed9d0a4fbfbf8b2909bfb0a, type: 2}
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: b277e99425495eb4aab5faba3baa3694, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 4094283981735892676, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalRenderer: {fileID: 4103992706707609376, guid: b049a310aef5ee942af5370566d90359,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 3aef4e74afb2e5f46b26294777e0df52, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      - {fileID: 2100000, guid: 4e5bc8b5228b1f540b405631624c351f, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      originalFilter: {fileID: 8398175899823133169, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalRenderer: {fileID: 8405493161180643085, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: fdf7979d508ee9f4486a193c078dd56e, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      originalFilter: {fileID: 33482289115540198, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalRenderer: {fileID: 23024303664500262, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: a1eaf03eddc94834aad68a5a2616cb08, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3306268, guid: 90384f384d956454ab5335a236e8614c, type: 3}
-      originalRenderer: {fileID: 2386384, guid: 90384f384d956454ab5335a236e8614c,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: d373f9b1d8f1042459e49c8184e0e1c7, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3356862, guid: 9688d44a1d3705b4d8c944ae5895316e, type: 3}
-      originalRenderer: {fileID: 2398142, guid: 9688d44a1d3705b4d8c944ae5895316e,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 3dfe77aa89745cc44a1a0258f843be25, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3388782, guid: 80c29f4bcb6b88c4eada2c7a089d946f, type: 3}
-      originalRenderer: {fileID: 2380832, guid: 80c29f4bcb6b88c4eada2c7a089d946f,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 8681bb134f505814f8356124e6059131, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      originalFilter: {fileID: 3336826, guid: 796a86b60c2286147a700ad9361769c5, type: 3}
-      originalRenderer: {fileID: 2383952, guid: 796a86b60c2286147a700ad9361769c5,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 97adcfe45e34c964ea5a214d08e72443, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      originalFilter: {fileID: 33101892025088632, guid: e737369f5b82ed04cba5a1fff9bf31fd,
-        type: 3}
-      originalRenderer: {fileID: 23707150038928916, guid: e737369f5b82ed04cba5a1fff9bf31fd,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
       meshAttrib:
@@ -3065,28 +2752,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: a6b7c12814cb2c041b9d728806cc4e65, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 6fe196eb724a0b74589ccf090be0095b, type: 2}
-      originalFilter: {fileID: 3306846, guid: 39054cc5663c02e42bea97080d6815ed, type: 3}
-      originalRenderer: {fileID: 2306852, guid: 39054cc5663c02e42bea97080d6815ed,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300002, guid: a6b7c12814cb2c041b9d728806cc4e65, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 6fe196eb724a0b74589ccf090be0095b, type: 2}
-      originalFilter: {fileID: 3397678, guid: 39054cc5663c02e42bea97080d6815ed, type: 3}
-      originalRenderer: {fileID: 2319732, guid: 39054cc5663c02e42bea97080d6815ed,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300004, guid: a6b7c12814cb2c041b9d728806cc4e65, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 6fe196eb724a0b74589ccf090be0095b, type: 2}
-      originalFilter: {fileID: 3383872, guid: 39054cc5663c02e42bea97080d6815ed, type: 3}
-      originalRenderer: {fileID: 2315006, guid: 39054cc5663c02e42bea97080d6815ed,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 6fe196eb724a0b74589ccf090be0095b, type: 2}
       meshAttrib:
@@ -3204,32 +2870,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 3aef4e74afb2e5f46b26294777e0df52, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      - {fileID: 2100000, guid: 4e5bc8b5228b1f540b405631624c351f, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      originalFilter: {fileID: 8398175899823133169, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalRenderer: {fileID: 8405493161180643085, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: fdf7979d508ee9f4486a193c078dd56e, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      originalFilter: {fileID: 33482289115540198, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalRenderer: {fileID: 23024303664500262, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
       meshAttrib:
@@ -3482,56 +3123,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 3aef4e74afb2e5f46b26294777e0df52, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      - {fileID: 2100000, guid: 4e5bc8b5228b1f540b405631624c351f, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      originalFilter: {fileID: 8398175899823133169, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalRenderer: {fileID: 8405493161180643085, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: fdf7979d508ee9f4486a193c078dd56e, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      originalFilter: {fileID: 33482289115540198, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalRenderer: {fileID: 23024303664500262, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: fdf7979d508ee9f4486a193c078dd56e, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      originalFilter: {fileID: 33482289115540198, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalRenderer: {fileID: 23024303664500262, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 97adcfe45e34c964ea5a214d08e72443, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      originalFilter: {fileID: 33101892025088632, guid: e737369f5b82ed04cba5a1fff9bf31fd,
-        type: 3}
-      originalRenderer: {fileID: 23707150038928916, guid: e737369f5b82ed04cba5a1fff9bf31fd,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 4e5bc8b5228b1f540b405631624c351f, type: 2}
       meshAttrib:
@@ -3892,54 +3484,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 3aef4e74afb2e5f46b26294777e0df52, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      - {fileID: 2100000, guid: 4e5bc8b5228b1f540b405631624c351f, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      originalFilter: {fileID: 8398175899823133169, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalRenderer: {fileID: 8405493161180643085, guid: efd094e62e893a2478fbdacb1d204a49,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: fdf7979d508ee9f4486a193c078dd56e, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      originalFilter: {fileID: 33482289115540198, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalRenderer: {fileID: 23024303664500262, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 8681bb134f505814f8356124e6059131, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      originalFilter: {fileID: 3336826, guid: 796a86b60c2286147a700ad9361769c5, type: 3}
-      originalRenderer: {fileID: 2383952, guid: 796a86b60c2286147a700ad9361769c5,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 97adcfe45e34c964ea5a214d08e72443, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      originalFilter: {fileID: 33101892025088632, guid: e737369f5b82ed04cba5a1fff9bf31fd,
-        type: 3}
-      originalRenderer: {fileID: 23707150038928916, guid: e737369f5b82ed04cba5a1fff9bf31fd,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
       meshAttrib:
@@ -4372,31 +3917,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: fdf7979d508ee9f4486a193c078dd56e, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: 1147fc7d6e5d5454989399f1532a173e, type: 2}
-      originalFilter: {fileID: 33482289115540198, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalRenderer: {fileID: 23024303664500262, guid: 0c4a88ebdee34ae4f901c5281d296b8a,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 97adcfe45e34c964ea5a214d08e72443, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: dfca6958fbd4c9e4d9327803f0dc8af1, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      originalFilter: {fileID: 33101892025088632, guid: e737369f5b82ed04cba5a1fff9bf31fd,
-        type: 3}
-      originalRenderer: {fileID: 23707150038928916, guid: e737369f5b82ed04cba5a1fff9bf31fd,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: cb7061ae1fae31244bf1b9498d9e65c7, type: 2}
       meshAttrib:
@@ -4631,48 +4152,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: a1eaf03eddc94834aad68a5a2616cb08, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3306268, guid: 90384f384d956454ab5335a236e8614c, type: 3}
-      originalRenderer: {fileID: 2386384, guid: 90384f384d956454ab5335a236e8614c,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: d373f9b1d8f1042459e49c8184e0e1c7, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3356862, guid: 9688d44a1d3705b4d8c944ae5895316e, type: 3}
-      originalRenderer: {fileID: 2398142, guid: 9688d44a1d3705b4d8c944ae5895316e,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 3dfe77aa89745cc44a1a0258f843be25, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      originalFilter: {fileID: 3388782, guid: 80c29f4bcb6b88c4eada2c7a089d946f, type: 3}
-      originalRenderer: {fileID: 2380832, guid: 80c29f4bcb6b88c4eada2c7a089d946f,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 8681bb134f505814f8356124e6059131, type: 3}
-      originalMaterials:
-      - {fileID: 2100000, guid: 47482ce55f8d1d64f8597733513b80a9, type: 2}
-      - {fileID: 2100000, guid: 2b5cad589b08ffe4e9edb180db5877db, type: 2}
-      - {fileID: 2100000, guid: e316cd3c1ca224540ba1d0a744b39c84, type: 2}
-      - {fileID: 2100000, guid: 2bf269d922552c74886d39a70485cd7e, type: 2}
-      - {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
-      originalFilter: {fileID: 3336826, guid: 796a86b60c2286147a700ad9361769c5, type: 3}
-      originalRenderer: {fileID: 2383952, guid: 796a86b60c2286147a700ad9361769c5,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: f0ca0ed755724284b84ca1fc49f26012, type: 2}
       meshAttrib:
@@ -5051,105 +4531,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: a486524e227e34b47aeac0756507d272, type: 2}
-      originalFilter: {fileID: 918693143051486290, guid: e7c262b3912b66f49bce3ad6f7c4f146,
-        type: 3}
-      originalRenderer: {fileID: 907918441950120410, guid: e7c262b3912b66f49bce3ad6f7c4f146,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: 0406ab84105bd9f4b8f9fd81f81624a1, type: 2}
-      originalFilter: {fileID: 6109782686379120992, guid: 9c60d2c1267c6d7459639c2255750e49,
-        type: 3}
-      originalRenderer: {fileID: 6119274186812216552, guid: 9c60d2c1267c6d7459639c2255750e49,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33761202245577798, guid: 791332f9dbf6a0948a060b257e672f8d,
-        type: 3}
-      originalRenderer: {fileID: 23001966247731662, guid: 791332f9dbf6a0948a060b257e672f8d,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: d2b179b9937ca894fad06f2f450b5c30, type: 2}
-      originalFilter: {fileID: 2039638141303819788, guid: 1bde11fda7d8b3f4880a20504582e462,
-        type: 3}
-      originalRenderer: {fileID: 2046896603416871812, guid: 1bde11fda7d8b3f4880a20504582e462,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: abab9f7f89ebeea4299219a06d3974ea, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      originalFilter: {fileID: 33369561347525288, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalRenderer: {fileID: 23520684356126346, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: abab9f7f89ebeea4299219a06d3974ea, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      originalFilter: {fileID: 33369561347525288, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalRenderer: {fileID: 23520684356126346, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 37f54e2b20d0585448ee36ef7854aa2d, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33263075279523344, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalRenderer: {fileID: 23559149959615070, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 37f54e2b20d0585448ee36ef7854aa2d, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33263075279523344, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalRenderer: {fileID: 23559149959615070, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
       meshAttrib:
@@ -5534,78 +4916,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: a486524e227e34b47aeac0756507d272, type: 2}
-      originalFilter: {fileID: 918693143051486290, guid: e7c262b3912b66f49bce3ad6f7c4f146,
-        type: 3}
-      originalRenderer: {fileID: 907918441950120410, guid: e7c262b3912b66f49bce3ad6f7c4f146,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: 0406ab84105bd9f4b8f9fd81f81624a1, type: 2}
-      originalFilter: {fileID: 6109782686379120992, guid: 9c60d2c1267c6d7459639c2255750e49,
-        type: 3}
-      originalRenderer: {fileID: 6119274186812216552, guid: 9c60d2c1267c6d7459639c2255750e49,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33761202245577798, guid: 791332f9dbf6a0948a060b257e672f8d,
-        type: 3}
-      originalRenderer: {fileID: 23001966247731662, guid: 791332f9dbf6a0948a060b257e672f8d,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: d2b179b9937ca894fad06f2f450b5c30, type: 2}
-      originalFilter: {fileID: 2039638141303819788, guid: 1bde11fda7d8b3f4880a20504582e462,
-        type: 3}
-      originalRenderer: {fileID: 2046896603416871812, guid: 1bde11fda7d8b3f4880a20504582e462,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: abab9f7f89ebeea4299219a06d3974ea, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      originalFilter: {fileID: 33369561347525288, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalRenderer: {fileID: 23520684356126346, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 37f54e2b20d0585448ee36ef7854aa2d, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33263075279523344, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalRenderer: {fileID: 23559149959615070, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
       meshAttrib:
@@ -5984,65 +5295,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: a486524e227e34b47aeac0756507d272, type: 2}
-      originalFilter: {fileID: 918693143051486290, guid: e7c262b3912b66f49bce3ad6f7c4f146,
-        type: 3}
-      originalRenderer: {fileID: 907918441950120410, guid: e7c262b3912b66f49bce3ad6f7c4f146,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: 0406ab84105bd9f4b8f9fd81f81624a1, type: 2}
-      originalFilter: {fileID: 6109782686379120992, guid: 9c60d2c1267c6d7459639c2255750e49,
-        type: 3}
-      originalRenderer: {fileID: 6119274186812216552, guid: 9c60d2c1267c6d7459639c2255750e49,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33761202245577798, guid: 791332f9dbf6a0948a060b257e672f8d,
-        type: 3}
-      originalRenderer: {fileID: 23001966247731662, guid: 791332f9dbf6a0948a060b257e672f8d,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: d2b179b9937ca894fad06f2f450b5c30, type: 2}
-      originalFilter: {fileID: 2039638141303819788, guid: 1bde11fda7d8b3f4880a20504582e462,
-        type: 3}
-      originalRenderer: {fileID: 2046896603416871812, guid: 1bde11fda7d8b3f4880a20504582e462,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: abab9f7f89ebeea4299219a06d3974ea, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      originalFilter: {fileID: 33369561347525288, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalRenderer: {fileID: 23520684356126346, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
       meshAttrib:
@@ -6304,78 +5557,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: a486524e227e34b47aeac0756507d272, type: 2}
-      originalFilter: {fileID: 918693143051486290, guid: e7c262b3912b66f49bce3ad6f7c4f146,
-        type: 3}
-      originalRenderer: {fileID: 907918441950120410, guid: e7c262b3912b66f49bce3ad6f7c4f146,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: 0406ab84105bd9f4b8f9fd81f81624a1, type: 2}
-      originalFilter: {fileID: 6109782686379120992, guid: 9c60d2c1267c6d7459639c2255750e49,
-        type: 3}
-      originalRenderer: {fileID: 6119274186812216552, guid: 9c60d2c1267c6d7459639c2255750e49,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33761202245577798, guid: 791332f9dbf6a0948a060b257e672f8d,
-        type: 3}
-      originalRenderer: {fileID: 23001966247731662, guid: 791332f9dbf6a0948a060b257e672f8d,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: abab9f7f89ebeea4299219a06d3974ea, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      originalFilter: {fileID: 33369561347525288, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalRenderer: {fileID: 23520684356126346, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 37f54e2b20d0585448ee36ef7854aa2d, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33263075279523344, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalRenderer: {fileID: 23559149959615070, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 30d11000e8b724c4f94b7f89b122bba6, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      - {fileID: 2100000, guid: d2b179b9937ca894fad06f2f450b5c30, type: 2}
-      originalFilter: {fileID: 2039638141303819788, guid: 1bde11fda7d8b3f4880a20504582e462,
-        type: 3}
-      originalRenderer: {fileID: 2046896603416871812, guid: 1bde11fda7d8b3f4880a20504582e462,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: a486524e227e34b47aeac0756507d272, type: 2}
       meshAttrib:
@@ -7060,34 +6242,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: abab9f7f89ebeea4299219a06d3974ea, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      originalFilter: {fileID: 33369561347525288, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalRenderer: {fileID: 23520684356126346, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 37f54e2b20d0585448ee36ef7854aa2d, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33263075279523344, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalRenderer: {fileID: 23559149959615070, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
       meshAttrib:
@@ -7376,34 +6531,7 @@ MonoBehaviour:
     detailNormal: {fileID: 0}
     detailAlbedo: {fileID: 0}
     specular: {fileID: 0}
-    restores:
-    - originalMesh: {fileID: 4300000, guid: abab9f7f89ebeea4299219a06d3974ea, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      - {fileID: 2100000, guid: 600aca78d47e48b488a3847b50721929, type: 2}
-      originalFilter: {fileID: 33369561347525288, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalRenderer: {fileID: 23520684356126346, guid: 5daaa072434207b418d892c1483bb508,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
-    - originalMesh: {fileID: 4300000, guid: 37f54e2b20d0585448ee36ef7854aa2d, type: 2}
-      originalMaterials:
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: c561153f5fa7d664e9600793adb7c23d, type: 2}
-      - {fileID: 2100000, guid: cce0b514238873949b3316d618a1c6db, type: 2}
-      - {fileID: 2100000, guid: 9cd518d430070f44f958c51a4bdbfcc0, type: 2}
-      - {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
-      - {fileID: 2100000, guid: db25b2389a494fb4daf0fff5e9118685, type: 2}
-      originalFilter: {fileID: 33263075279523344, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalRenderer: {fileID: 23559149959615070, guid: 3f748ff70884bfd4d9c463305fbfb3dc,
-        type: 3}
-      originalSkinRenderer: {fileID: 0}
+    restores: []
     combines:
     - mat: {fileID: 2100000, guid: ceefb01b5c021bd4399f7d0644491281, type: 2}
       meshAttrib:
