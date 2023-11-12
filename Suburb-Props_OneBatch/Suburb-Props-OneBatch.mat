@@ -10,7 +10,9 @@ Material:
   m_Name: Suburb-Props-OneBatch
   m_Shader: {fileID: 4800000, guid: 8be508f65e802483d8d231f9e28b55db, type: 3}
   m_ValidKeywords:
+  - _GLOSSYREFLECTIONS_OFF
   - _NORMALMAP
+  - _SPECULARHIGHLIGHTS_OFF
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -90,13 +92,13 @@ Material:
     - _DetailMode: 0
     - _DstBlend: 0
     - _EmissionMode: 0
-    - _GlossyReflections: 1
+    - _GlossyReflections: 0
     - _Mode: 0
     - _PackingMode: 0
     - _ParallaxMode: 0
     - _ParallaxSteps: 32
     - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
+    - _SpecularHighlights: 0
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
