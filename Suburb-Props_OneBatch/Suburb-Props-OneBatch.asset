@@ -1033,7 +1033,7 @@ MonoBehaviour:
         originalMaterial: {fileID: 2100000, guid: 7eec39869b70b5d4cb731a7f4b32ac22,
           type: 2}
         tint: {r: 0.81617653, g: 0.81617653, b: 0.81617653, a: 1}
-        uvScaleOffset: {x: 1, y: 1, z: 0, w: 0}
+        uvScaleOffset: {x: 0.5, y: 0.5, z: 0, w: 0}
         normalStrength: 1
         occlusionStrength: 1
         specularStrength: 0.056
