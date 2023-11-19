@@ -83,6 +83,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: AdultLink/VerticalDissolve
@@ -384,6 +387,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Autodesk Interactive
@@ -519,7 +525,7 @@ MonoBehaviour:
   - name: Custom/AdditiveTintable
     simpleName: AdditiveTintable
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -545,12 +551,15 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Custom/Physically Based Shading
     simpleName: Physically Based Shading
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -607,6 +616,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Custom/SteamVR_AlphaOut
@@ -619,6 +631,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -635,6 +650,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Custom/SteamVR_ColorOut
@@ -647,6 +665,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -666,6 +687,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Custom/SteamVR_SphericalProjection
@@ -678,6 +702,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -695,6 +722,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -753,6 +783,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Effects/Explosions/Distortion/ParticlesCutOut
@@ -770,6 +803,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Effects/Explosions/Particles/Alpha Blended
@@ -785,6 +821,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -807,6 +846,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Effects/FPS_Pack/GlowAdditiveNoFade
@@ -827,6 +869,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Effects/FPS_Pack/ProjectorAlphaBlended
@@ -839,6 +884,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -873,6 +921,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -1088,6 +1139,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: FFS/ColorTintChange
@@ -1229,6 +1283,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: FX/Glass/Stained BumpDistort
@@ -1248,7 +1305,7 @@ MonoBehaviour:
   - name: Glass
     simpleName: Glass
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -1299,6 +1356,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: GUI/3D Text Shader
@@ -1311,6 +1371,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -1475,6 +1538,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/FastBlur
@@ -1522,6 +1588,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/Imposter_AlphaCutout
@@ -1531,6 +1600,9 @@ MonoBehaviour:
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -1544,6 +1616,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/Imposter_Opaque
@@ -1553,6 +1628,9 @@ MonoBehaviour:
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -1566,6 +1644,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/Imposter_Underlay_AA
@@ -1575,6 +1656,9 @@ MonoBehaviour:
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -2008,6 +2092,9 @@ MonoBehaviour:
     - keyword: BEAUTIFY_BLOOM_PROP_THRESHOLDING
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/Kronnect/Beautify/BeautifyBasic
@@ -2017,6 +2104,9 @@ MonoBehaviour:
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -2084,6 +2174,9 @@ MonoBehaviour:
     - keyword: BEAUTIFY_BLOOM_PROP_THRESHOLDING
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/Kronnect/Beautify/CopyDepth
@@ -2093,6 +2186,9 @@ MonoBehaviour:
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -2106,12 +2202,15 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/MicroSplat/Culdesac-Terrain_Base-628176217
     simpleName: Culdesac-Terrain_Base-628176217
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -2183,6 +2282,9 @@ MonoBehaviour:
     - keyword: _ALPHATEST_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/MicroSplat/Prison-Terrain_Base263420527
@@ -2250,7 +2352,7 @@ MonoBehaviour:
   - name: Hidden/MicroSplat/Scene1-Terrain_Base518218001
     simpleName: Scene1-Terrain_Base518218001
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -2325,12 +2427,15 @@ MonoBehaviour:
     - keyword: _ALPHATEST_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/MicroSplat/Sewer-Terrain_Base-1313843224
     simpleName: Sewer-Terrain_Base-1313843224
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -2402,12 +2507,15 @@ MonoBehaviour:
     - keyword: _ALPHATEST_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/MicroSplat/Terrain_Base-2131566239
     simpleName: Terrain_Base-2131566239
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -2528,7 +2636,7 @@ MonoBehaviour:
   - name: Hidden/MicroSplat/Terrain-MedicalTent_Base1105409179
     simpleName: Terrain-MedicalTent_Base1105409179
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -2600,6 +2708,9 @@ MonoBehaviour:
     - keyword: _ALPHATEST_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/Nature/Tree Creator Albedo Rendertex
@@ -2612,6 +2723,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -2815,6 +2929,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/Nature/Tree Soft Occlusion Bark Rendertex
@@ -2827,6 +2944,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -2843,6 +2963,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/ProBuilder/EdgePicker
@@ -2855,6 +2978,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -2871,6 +2997,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/ProBuilder/FacePicker
@@ -2883,6 +3012,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -2899,6 +3031,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/ProBuilder/PointBillboard
@@ -2913,6 +3048,9 @@ MonoBehaviour:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/ProBuilder/VertexPicker
@@ -2925,6 +3063,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -2947,6 +3088,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/TerrainEngine/CameraFacingBillboardTree
@@ -2967,15 +3111,21 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/TerrainEngine/CrossBlendNeighbors
     simpleName: CrossBlendNeighbors
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -2983,7 +3133,7 @@ MonoBehaviour:
   - name: Hidden/TerrainEngine/Details/BillboardWavingDoublePass
     simpleName: BillboardWavingDoublePass
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -3050,6 +3200,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -3057,7 +3210,7 @@ MonoBehaviour:
   - name: Hidden/TerrainEngine/Details/Vertexlit
     simpleName: Vertexlit
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -3117,12 +3270,15 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/TerrainEngine/Details/WavingDoublePass
     simpleName: WavingDoublePass
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -3191,12 +3347,15 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/TerrainEngine/GenerateNormalmap
     simpleName: GenerateNormalmap
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -3205,15 +3364,21 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/TerrainEngine/HeightBlitCopy
     simpleName: HeightBlitCopy
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -3221,10 +3386,13 @@ MonoBehaviour:
   - name: Hidden/TerrainEngine/PaintHeight
     simpleName: PaintHeight
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -3232,7 +3400,7 @@ MonoBehaviour:
   - name: Hidden/TerrainEngine/Splatmap/Diffuse-AddPass
     simpleName: Diffuse-AddPass
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -3307,12 +3475,15 @@ MonoBehaviour:
     - keyword: _ALPHATEST_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/TerrainEngine/Splatmap/Diffuse-Base
     simpleName: Diffuse-Base
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -3384,12 +3555,15 @@ MonoBehaviour:
     - keyword: _ALPHATEST_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/TerrainEngine/Splatmap/Diffuse-BaseGen
     simpleName: Diffuse-BaseGen
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -3398,12 +3572,15 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/TerrainEngine/Splatmap/Specular-AddPass
     simpleName: Specular-AddPass
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -3480,7 +3657,7 @@ MonoBehaviour:
   - name: Hidden/TerrainEngine/Splatmap/Specular-Base
     simpleName: Specular-Base
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -3554,7 +3731,7 @@ MonoBehaviour:
   - name: Hidden/TerrainEngine/Splatmap/Standard-AddPass
     simpleName: Standard-AddPass
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -3631,7 +3808,7 @@ MonoBehaviour:
   - name: Hidden/TerrainEngine/Splatmap/Standard-Base
     simpleName: Standard-Base
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -3705,7 +3882,7 @@ MonoBehaviour:
   - name: Hidden/TerrainEngine/Splatmap/Standard-BaseGen
     simpleName: Standard-BaseGen
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -3719,10 +3896,13 @@ MonoBehaviour:
   - name: Hidden/TerrainEngine/TerrainLayerUtils
     simpleName: TerrainLayerUtils
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -3745,6 +3925,9 @@ MonoBehaviour:
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -3819,6 +4002,9 @@ MonoBehaviour:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Hidden/VR/BlitFromTex2DToTexArraySlice
@@ -3877,13 +4063,16 @@ MonoBehaviour:
   - name: HighlightPlus/ClearStencil
     simpleName: ClearStencil
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -3891,13 +4080,16 @@ MonoBehaviour:
   - name: HighlightPlus/Geometry/BlurGlow
     simpleName: BlurGlow
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -3905,13 +4097,16 @@ MonoBehaviour:
   - name: HighlightPlus/Geometry/BlurOutline
     simpleName: BlurOutline
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -3919,13 +4114,16 @@ MonoBehaviour:
   - name: HighlightPlus/Geometry/ComposeGlow
     simpleName: ComposeGlow
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -3933,13 +4131,16 @@ MonoBehaviour:
   - name: HighlightPlus/Geometry/ComposeOutline
     simpleName: ComposeOutline
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -3947,7 +4148,7 @@ MonoBehaviour:
   - name: HighlightPlus/Geometry/Glow
     simpleName: Glow
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -3957,6 +4158,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -3964,7 +4168,7 @@ MonoBehaviour:
   - name: HighlightPlus/Geometry/InnerGlow
     simpleName: InnerGlow
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -3976,12 +4180,15 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: HighlightPlus/Geometry/JustDepth
     simpleName: JustDepth
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -3990,12 +4197,15 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: HighlightPlus/Geometry/Mask
     simpleName: Mask
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -4010,12 +4220,15 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: HighlightPlus/Geometry/Outline
     simpleName: Outline
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -4030,12 +4243,15 @@ MonoBehaviour:
     - keyword: HP_ALPHACLIP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: HighlightPlus/Geometry/Overlay
     simpleName: Overlay
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -4045,6 +4261,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -4052,7 +4271,7 @@ MonoBehaviour:
   - name: HighlightPlus/Geometry/SeeThroughBorder
     simpleName: SeeThroughBorder
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -4062,6 +4281,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -4069,7 +4291,7 @@ MonoBehaviour:
   - name: HighlightPlus/Geometry/SeeThroughInner
     simpleName: SeeThroughInner
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -4081,12 +4303,15 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: HighlightPlus/Geometry/SeeThroughOccluder
     simpleName: SeeThroughOccluder
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -4095,12 +4320,15 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: HighlightPlus/Geometry/SolidColor
     simpleName: SolidColor
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
@@ -4115,18 +4343,24 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: HighlightPlus/Geometry/Target
     simpleName: Target
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -4141,6 +4375,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: UNITY_SINGLE_PASS_STEREO
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -4182,6 +4419,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -4247,6 +4487,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -4405,6 +4648,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Legacy Shaders/Particles/Additive (Soft)
@@ -4451,6 +4697,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Legacy Shaders/Particles/Alpha Blended Premultiply
@@ -4466,6 +4715,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -4512,6 +4764,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -4579,6 +4834,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Legacy Shaders/Reflective/VertexLit
@@ -4597,6 +4855,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -4729,6 +4990,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Legacy Shaders/Self-Illumin/Specular
@@ -4820,6 +5084,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Legacy Shaders/Specular
@@ -4883,6 +5150,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -5059,6 +5329,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Legacy Shaders/Transparent/Cutout/Soft Edge Unlit
@@ -5111,11 +5384,14 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Legacy Shaders/Transparent/Diffuse
     simpleName: Diffuse
-    isExpanded: 1
+    isExpanded: 0
     includeInBuild: 1
     type: 1
     keywords:
@@ -5167,6 +5443,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Legacy Shaders/Transparent/VertexLit
@@ -5191,6 +5470,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -5248,6 +5530,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: MeshBaker/NormalMapShader
@@ -5266,6 +5551,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -5288,12 +5576,15 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: MicroSplat/Culdesac-Terrain
     simpleName: Culdesac-Terrain
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -5363,6 +5654,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -5432,7 +5726,7 @@ MonoBehaviour:
   - name: MicroSplat/Scene1-Terrain
     simpleName: Scene1-Terrain
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -5502,6 +5796,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -5584,12 +5881,15 @@ MonoBehaviour:
     - keyword: _ALPHATEST_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: MicroSplat/Sewer-Terrain
     simpleName: Sewer-Terrain
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -5661,12 +5961,15 @@ MonoBehaviour:
     - keyword: _ALPHATEST_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: MicroSplat/Terrain
     simpleName: Terrain
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -5787,7 +6090,7 @@ MonoBehaviour:
   - name: MicroSplat/Terrain-MedicalTent
     simpleName: Terrain-MedicalTent
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -5857,6 +6160,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -5937,6 +6243,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -6054,6 +6363,9 @@ MonoBehaviour:
     - keyword: DYNAMICLIGHTMAP_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Mobile/Particles/Additive
@@ -6114,6 +6426,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Mobile/Skybox
@@ -6172,6 +6487,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -6394,6 +6712,12 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ALPHATEST_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -6667,7 +6991,7 @@ MonoBehaviour:
   - name: NatureManufacture Shaders/Standard Shaders/Standard Metalic Snow
     simpleName: Standard Metalic Snow
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -6752,6 +7076,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -6759,7 +7086,7 @@ MonoBehaviour:
   - name: NatureManufacture Shaders/Standard Shaders/Standard Metalic Snow CutOut
     simpleName: Standard Metalic Snow CutOut
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -6846,12 +7173,15 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: NatureManufacture Shaders/Standard Shaders/Standard Specular Snow
     simpleName: Standard Specular Snow
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -6935,12 +7265,15 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: NOT_Lonely/MaskedPBR
     simpleName: MaskedPBR
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: SHADOWS_DEPTH
@@ -7021,6 +7354,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: NOT_Lonely/NOT_Lonely_Cobweb
@@ -7090,6 +7426,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -7166,12 +7505,15 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: NOT_Lonely/NOT_Lonely_MaskedPBR
     simpleName: NOT_Lonely_MaskedPBR
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -7243,12 +7585,15 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: NOT_Lonely/NOT_Lonely_PBRDecals
     simpleName: NOT_Lonely_PBRDecals
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -7315,6 +7660,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -7411,6 +7759,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Obi/DistanceFieldSlice
@@ -7423,6 +7774,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -7469,6 +7823,9 @@ MonoBehaviour:
     - keyword: DIRLIGHTMAP_COMBINED
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Obi/Simple Particles
@@ -7513,6 +7870,9 @@ MonoBehaviour:
     - keyword: DIRLIGHTMAP_COMBINED
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Oculus/Cubemap Blit
@@ -7527,6 +7887,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Oculus/OVRMRCameraFrame
@@ -7539,6 +7902,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -7597,6 +7963,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Oculus/Texture2D Blit
@@ -7609,6 +7978,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -7685,6 +8057,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Oculus/Underlay Transparent Occluder
@@ -7750,6 +8125,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Oculus/Unlit
@@ -7770,6 +8148,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Oculus/Unlit Transparent Color
@@ -7782,6 +8163,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -7804,6 +8188,137 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: OmniShade/Standard
+    simpleName: Standard
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: _SPECULARUV_UV1
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _RIMBLEND_ALPHA_BLEND
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _NORMALUV_UV1
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHTMAPUV_UV1
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MATCAPBLEND_MULTIPLY
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DETAILBLEND_ALPHA_BLEND
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DETAILUV_UV1
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LAYER1BLEND_ALPHA_BLEND
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LAYER2BLEND_ALPHA_BLEND
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LAYER3BLEND_ALPHA_BLEND
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _HEIGHTCOLORSBLEND_ALPHA_BLEND
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _SHADOWOVERLAYANIMATION_SCROLL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _PLANTTYPE_PLANT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _OPTSHADOW_ALL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _OPTPOINTLIGHTS_ALL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _OPTFOG_ALL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _OPTLIGHTMAPPING_ALL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _RIMBLEND_ADDITIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: MATCAP_PERSPECTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DETAILBLEND_MULTIPLY
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: ANIME_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: AMBIENT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: BASE_CONTRAST
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: BASE_SATURATION
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIFFUSE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_ENABLED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIFFUSE_PER_PIXEL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPECULAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPECULAR_MAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: NORMAL_MAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: EMISSIVE_MAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _OPTFALLBACK_ALL
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OneBatchStandard
@@ -7822,10 +8337,10 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _METALLICGLOSSMAP
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: _NORMALMAP
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SHADOWMASK
       includeInBuild: 1
@@ -7840,10 +8355,10 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: VERTEXLIGHT_ON
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: FOG_LINEAR
       includeInBuild: 1
@@ -7861,13 +8376,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SOFT
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_CUBE
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: UNITY_HDR_ON
       includeInBuild: 1
@@ -7885,7 +8400,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: DYNAMICLIGHTMAP_ON
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: EDITOR_VISUALIZATION
       includeInBuild: 1
@@ -7902,6 +8417,9 @@ MonoBehaviour:
     - keyword: _GLOSSYREFLECTIONS_OFF
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OvrAvatar/Avatar_EyeLens
@@ -7914,6 +8432,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -7936,6 +8457,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OvrAvatar/Avatar_Mobile_CombinedMeshExpressive
@@ -7956,6 +8480,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OvrAvatar/Avatar_Mobile_Loader
@@ -7968,6 +8495,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -7990,6 +8520,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OvrAvatar/Avatar_Mobile_SingleComponentExpressive
@@ -8008,6 +8541,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -8084,6 +8620,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OvrAvatar/Avatar_PC_SingleComponentExpressive
@@ -8156,6 +8695,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -8232,6 +8774,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OvrAvatar/AvatarSurfaceShader
@@ -8300,6 +8845,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OvrAvatar/AvatarSurfaceShaderPBS
@@ -8330,6 +8878,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -8406,6 +8957,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OvrAvatar/AvatarSurfaceShaderSelfOccluding
@@ -8474,6 +9028,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Particles/Additive (Soft + Mult)
@@ -8498,6 +9055,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -8532,6 +9092,9 @@ MonoBehaviour:
     - keyword: SOFTPARTICLES_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Particles/BlendZBuffer
@@ -8553,6 +9116,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -8611,6 +9177,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Particles/HSL Additive
@@ -8637,6 +9206,9 @@ MonoBehaviour:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Particles/HSL Alpha Blended
@@ -8661,6 +9233,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: UNITY_SINGLE_PASS_STEREO
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -8722,6 +9297,9 @@ MonoBehaviour:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Particles/Standard Unlit
@@ -8772,12 +9350,15 @@ MonoBehaviour:
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: PolyPixel/Tree_Leaf Legacy
     simpleName: Tree_Leaf Legacy
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: SHADOWS_DEPTH
@@ -8863,7 +9444,7 @@ MonoBehaviour:
   - name: PolyPixel/Two_Sided_Cutout_PBR
     simpleName: Two_Sided_Cutout_PBR
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: SHADOWS_DEPTH
@@ -9015,6 +9596,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: ProBuilder/UnlitVertexColor
@@ -9027,6 +9611,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -9050,6 +9637,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -9092,12 +9682,15 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: RealisticWater/WaterPC
     simpleName: WaterPC
-    isExpanded: 0
-    includeInBuild: 1
+    isExpanded: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: ripples_off
@@ -9119,6 +9712,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -9218,6 +9814,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Simon Mercuzot/RedDot
@@ -9227,6 +9826,9 @@ MonoBehaviour:
     type: 1
     keywords:
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -9310,6 +9912,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Skybox/Procedural
@@ -9331,6 +9936,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -9483,6 +10091,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Standard (Backfaces)
@@ -9563,12 +10174,15 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Standard (Specular setup)
     simpleName: Standard (Specular setup)
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -9667,6 +10281,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Standard (Vertex Colors)
@@ -9739,6 +10356,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -9839,6 +10459,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: TextMeshPro/Bitmap
@@ -9859,6 +10482,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: TextMeshPro/Bitmap Custom Atlas
@@ -9877,6 +10503,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -9903,6 +10532,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -9958,6 +10590,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: TextMeshPro/Distance Field Overlay
@@ -9981,6 +10616,9 @@ MonoBehaviour:
     - keyword: UNDERLAY_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: TextMeshPro/Mobile/Bitmap
@@ -9999,6 +10637,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10027,6 +10668,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: TextMeshPro/Mobile/Distance Field - Masking
@@ -10045,6 +10689,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10085,6 +10732,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: TextMeshPro/Mobile/Distance Field Overlay
@@ -10105,6 +10755,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: TextMeshPro/Sprite
@@ -10123,6 +10776,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10162,6 +10818,9 @@ MonoBehaviour:
     - keyword: UNITY_UI_CLIP_RECT
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: UI/Overlay
@@ -10174,6 +10833,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10196,6 +10858,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Unlit/seeThruWalls
@@ -10214,6 +10879,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10236,6 +10904,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Unlit/Transparent
@@ -10256,6 +10927,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Unlit/TransparentColor
@@ -10274,6 +10948,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10310,6 +10987,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Valve/VR/Silhouette
@@ -10322,6 +11002,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10338,6 +11021,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: VolumetricFogAndMist/Chaos Lerp
@@ -10352,6 +11038,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 0
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: VolumetricFogAndMist/CopyDepth
@@ -10364,6 +11053,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10380,6 +11072,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: VolumetricFogAndMist/CopyOpaque
@@ -10392,6 +11087,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10411,6 +11109,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: VolumetricFogAndMist/MaskWrite
@@ -10423,6 +11124,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10478,6 +11182,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Bleeding
@@ -10490,6 +11197,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10506,6 +11216,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Composite
@@ -10518,6 +11231,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10534,6 +11250,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Scanline
@@ -10546,6 +11265,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10562,6 +11284,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Television
@@ -10574,6 +11299,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10590,6 +11318,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Screen Effect
@@ -10602,6 +11333,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10678,6 +11412,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: VRTK/AdaptiveQualityDebugVisualization
@@ -10715,6 +11452,9 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: VRTK/VRTK_TunnelEffect
@@ -10729,12 +11469,15 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: WetSurface/Main
     simpleName: Main
     isExpanded: 0
-    includeInBuild: 1
+    includeInBuild: 0
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -10803,6 +11546,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Zombie/ASE_Zombie_CLIPs
@@ -10867,5 +11613,61 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 0
     variants: []
+  - name: Legacy Shaders/Diffuse Detail
+    simpleName: Diffuse Detail
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    variants: []
   sortType: 0
-  viewType: 2
+  viewType: 1
