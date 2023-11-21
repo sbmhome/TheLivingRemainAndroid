@@ -17,6 +17,9 @@ MonoBehaviour:
   packingMode: 0
   combinedMaterials:
   - {fileID: 2100000, guid: f540042f440c8ff48bfb8d3a32dbd2af, type: 2}
+  - {fileID: 2100000, guid: d51e6faa10e853e4ebad290ff2852a6a, type: 2}
+  - {fileID: 2100000, guid: e97ff53d575432a46850b46d395b80fe, type: 2}
+  - {fileID: 2100000, guid: abd8e58d09b6eb045924f7d6289e72d4, type: 2}
   prefabs:
   - {fileID: 176288, guid: d91598cc6d16cdb4ba6734569f335b57, type: 3}
   - {fileID: 1318163004176772, guid: fe82b3812e8c6984cbf5040f041fc805, type: 3}

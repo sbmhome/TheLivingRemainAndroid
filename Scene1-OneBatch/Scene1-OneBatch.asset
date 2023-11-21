@@ -15,7 +15,11 @@ MonoBehaviour:
   generateLightmapUVs: 1
   diffuseIsLinear: 0
   packingMode: 0
-  combinedMaterials: []
+  combinedMaterials:
+  - {fileID: 2100000, guid: 39113802a54710843a9e999fe7f9081d, type: 2}
+  - {fileID: 2100000, guid: 0d19f2e1f2bfd97499746f61942c1966, type: 2}
+  - {fileID: 2100000, guid: a8c2e64071c0fcd44b3822562c2a4255, type: 2}
+  - {fileID: 2100000, guid: 04d843c35bcc4d24ca8128e141bd464d, type: 2}
   prefabs:
   - {fileID: 1823099410341708, guid: fc8766e45987e7e4691fe95dd200514d, type: 3}
   - {fileID: 1374927080415666, guid: 0df28c29b5c4b2e4186bee951d5937ab, type: 3}
