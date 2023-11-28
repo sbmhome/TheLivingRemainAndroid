@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
   m_Name: BuiltShaders
   m_EditorClassIdentifier: 
-  creationDateTicks: 638361089152764348
+  creationDateTicks: 638367737340690202
   shaders:
   - name: 3y3net/CustomDissolve
     simpleName: CustomDissolve
@@ -708,6 +708,20 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: Custom/TransparentHighLight
+    simpleName: TransparentHighLight
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -6647,6 +6661,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 0
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Mobile/VertexLit
@@ -10083,6 +10100,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
