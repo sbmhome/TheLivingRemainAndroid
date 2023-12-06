@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
   m_Name: BuiltShaders
   m_EditorClassIdentifier: 
-  creationDateTicks: 638367737340690202
+  creationDateTicks: 638373935364519568
   shaders:
   - name: 3y3net/CustomDissolve
     simpleName: CustomDissolve
@@ -2885,6 +2885,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 0
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/Nature/Tree Creator Bark Rendertex
@@ -2897,6 +2900,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -2949,6 +2955,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/Nature/Tree Creator Leaves Optimized
@@ -2996,6 +3005,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Hidden/Nature/Tree Creator Leaves Rendertex
@@ -3008,6 +3020,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -4844,7 +4859,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Particles/Additive (Soft)
     simpleName: Additive (Soft)
-    isExpanded: 1
+    isExpanded: 0
     includeInBuild: 1
     type: 1
     keywords:
@@ -4867,7 +4882,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Particles/Alpha Blended
     simpleName: Alpha Blended
-    isExpanded: 1
+    isExpanded: 0
     includeInBuild: 1
     type: 1
     keywords:
@@ -5112,6 +5127,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -5542,6 +5560,9 @@ MonoBehaviour:
       includeInBuild: 0
       includeInVariant: 0
     - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -6635,6 +6656,26 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 1
     variants: []
+  - name: Mobile/Particles/VertexLit Blended
+    simpleName: VertexLit Blended
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    variants: []
   - name: Mobile/Skybox
     simpleName: Skybox
     isExpanded: 0
@@ -6779,6 +6820,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Nature/SpeedTree Billboard
@@ -6842,6 +6886,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -7085,8 +7132,8 @@ MonoBehaviour:
     variants: []
   - name: Nature/Tree Creator Leaves Fast
     simpleName: Tree Creator Leaves Fast
-    isExpanded: 0
-    includeInBuild: 0
+    isExpanded: 1
+    includeInBuild: 1
     type: 1
     keywords:
     - keyword: DIRECTIONAL
@@ -7099,10 +7146,10 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_SHADOWMASK
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: LIGHTMAP_SHADOW_MIXING
       includeInBuild: 1
@@ -7117,12 +7164,15 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: DYNAMICLIGHTMAP_ON
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: DIRLIGHTMAP_COMBINED
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -7473,6 +7523,77 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: NatureManufacture Shaders/Standard Shaders/Standard Specular Snow CutOut
+    simpleName: Standard Specular Snow CutOut
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: PROCEDURAL_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_PASS_SHADOWCASTER
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -8524,6 +8645,15 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _OPTFALLBACK_ALL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _OPTLIGHTMAPPING_DISABLED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: OUTLINE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: CUTOUT
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
