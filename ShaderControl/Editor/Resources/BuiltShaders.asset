@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
   m_Name: BuiltShaders
   m_EditorClassIdentifier: 
-  creationDateTicks: 638373935364519568
+  creationDateTicks: 638385185241610353
   shaders:
   - name: 3y3net/CustomDissolve
     simpleName: CustomDissolve
@@ -214,7 +214,7 @@ MonoBehaviour:
     variants: []
   - name: Almgp/Nuke_FFS
     simpleName: Nuke_FFS
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8656,6 +8656,12 @@ MonoBehaviour:
     - keyword: CUTOUT
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: MATCAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: MATCAP_CONTRAST
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OneBatchStandard
@@ -9955,6 +9961,20 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 0
     variants: []
+  - name: Projector/LightStrongInstanced
+    simpleName: LightStrongInstanced
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
   - name: Projector/Multiply
     simpleName: Multiply
     isExpanded: 0
@@ -10008,6 +10028,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -11977,4 +12000,4 @@ MonoBehaviour:
     isInternal: 0
     variants: []
   sortType: 0
-  viewType: 2
+  viewType: 1
