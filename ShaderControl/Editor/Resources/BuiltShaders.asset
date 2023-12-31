@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
   m_Name: BuiltShaders
   m_EditorClassIdentifier: 
-  creationDateTicks: 638385185241610353
+  creationDateTicks: 638394987273360926
   shaders:
   - name: 3y3net/CustomDissolve
     simpleName: CustomDissolve
@@ -395,6 +395,17 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 0
     variants: []
+  - name: ASESampleShaders/MultiPassDistortion
+    simpleName: MultiPassDistortion
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
   - name: Autodesk Interactive
     simpleName: Autodesk Interactive
     isExpanded: 0
@@ -555,6 +566,62 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: Custom/FFSWater
+    simpleName: FFSWater
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_PASS_SHADOWCASTER
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -3180,6 +3247,17 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 0
     variants: []
+  - name: Hidden/Shader Graph/FallbackError
+    simpleName: FallbackError
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
   - name: Hidden/TerrainEngine/BillboardTree
     simpleName: BillboardTree
     isExpanded: 0
@@ -4877,6 +4955,9 @@ MonoBehaviour:
       includeInVariant: 0
     - keyword: FOG_EXP
       includeInBuild: 0
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
     variants: []
@@ -9696,6 +9777,9 @@ MonoBehaviour:
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: _EMISSION
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: PolyPixel/Tree_Leaf Legacy
@@ -10058,6 +10142,23 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 0
     variants: []
+  - name: RealisticWater/WaterMobile
+    simpleName: WaterMobile
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: ripples_on
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
   - name: RealisticWater/WaterPC
     simpleName: WaterPC
     isExpanded: 1
@@ -10085,6 +10186,17 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: RufatShaderlab/Blur
+    simpleName: Blur
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
@@ -10160,6 +10272,56 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: Shader Graphs/BasicWater
+    simpleName: BasicWater
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _CASTING_PUNCTUAL_LIGHT_SHADOW
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -10391,10 +10553,10 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _ALPHAPREMULTIPLY_ON
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: _DETAIL_MULX2
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: _ALPHABLEND_ON
       includeInBuild: 1
@@ -10415,7 +10577,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SHADOWMASK
       includeInBuild: 0
@@ -11728,7 +11890,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Materials/OLD TV Filter/Standard
     simpleName: Standard
-    isExpanded: 1
+    isExpanded: 0
     includeInBuild: 1
     type: 1
     keywords:
