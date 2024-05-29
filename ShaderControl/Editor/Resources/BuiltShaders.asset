@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
   m_Name: BuiltShaders
   m_EditorClassIdentifier: 
-  creationDateTicks: 638394987273360926
+  creationDateTicks: 638525246873009788
   shaders:
   - name: 3y3net/CustomDissolve
     simpleName: CustomDissolve
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -30,7 +30,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_SHADOWMASK
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: LIGHTMAP_ON
       includeInBuild: 1
@@ -534,6 +534,9 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: Custom/AdditiveTintable
@@ -566,62 +569,6 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: Custom/FFSWater
-    simpleName: FFSWater
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: DIRECTIONAL
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTPROBE_SH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DYNAMICLIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_SHADOW_MIXING
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRLIGHTMAP_COMBINED
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTEXLIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_LINEAR
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SPOT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRECTIONAL_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_PASS_SHADOWCASTER
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_CUBE
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -4778,6 +4725,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -10276,56 +10226,6 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 0
     variants: []
-  - name: Shader Graphs/BasicWater
-    simpleName: BasicWater
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: DIRECTIONAL
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTPROBE_SH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SHADOWMASK
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DYNAMICLIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_SHADOW_MIXING
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRLIGHTMAP_COMBINED
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTEXLIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_LINEAR
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_CUBE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: _CASTING_PUNCTUAL_LIGHT_SHADOW
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
   - name: ShaderControl/ChromaScreen
     simpleName: ChromaScreen
     isExpanded: 0
@@ -10553,7 +10453,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _ALPHAPREMULTIPLY_ON
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: _DETAIL_MULX2
       includeInBuild: 0
