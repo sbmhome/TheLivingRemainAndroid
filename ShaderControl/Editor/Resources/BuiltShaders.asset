@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
   m_Name: BuiltShaders
   m_EditorClassIdentifier: 
-  creationDateTicks: 638525246873009788
+  creationDateTicks: 638548600682567977
   shaders:
   - name: 3y3net/CustomDissolve
     simpleName: CustomDissolve
@@ -39,10 +39,10 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: LIGHTMAP_SHADOW_MIXING
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: VERTEXLIGHT_ON
       includeInBuild: 1
@@ -90,7 +90,7 @@ MonoBehaviour:
     variants: []
   - name: AdultLink/VerticalDissolve
     simpleName: VerticalDissolve
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -113,7 +113,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: LIGHTMAP_SHADOW_MIXING
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SCREEN
       includeInBuild: 0
@@ -4598,7 +4598,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Bumped Diffuse
     simpleName: Bumped Diffuse
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4612,7 +4612,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_SHADOWMASK
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: LIGHTMAP_ON
       includeInBuild: 1
@@ -4657,7 +4657,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -4734,7 +4734,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Diffuse
     simpleName: Diffuse
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4760,7 +4760,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: VERTEXLIGHT_ON
       includeInBuild: 1
@@ -5332,7 +5332,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Specular
     simpleName: Specular
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -5346,7 +5346,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_SHADOWMASK
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: LIGHTMAP_ON
       includeInBuild: 1
@@ -5385,13 +5385,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: DYNAMICLIGHTMAP_ON
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -6567,7 +6567,7 @@ MonoBehaviour:
     variants: []
   - name: Mobile/Diffuse
     simpleName: Diffuse
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -7560,7 +7560,7 @@ MonoBehaviour:
     variants: []
   - name: NatureManufacture Shaders/Standard Shaders/Standard Specular Snow CutOut
     simpleName: Standard Specular Snow CutOut
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8697,7 +8697,7 @@ MonoBehaviour:
     variants: []
   - name: OneBatchStandard
     simpleName: OneBatchStandard
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -12062,4 +12062,4 @@ MonoBehaviour:
     isInternal: 0
     variants: []
   sortType: 0
-  viewType: 1
+  viewType: 2
