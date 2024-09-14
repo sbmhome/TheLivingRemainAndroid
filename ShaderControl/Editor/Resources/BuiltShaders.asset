@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
   m_Name: BuiltShaders
   m_EditorClassIdentifier: 
-  creationDateTicks: 638596022316673913
+  creationDateTicks: 638617967010191555
   shaders:
   - name: 3y3net/CustomDissolve
     simpleName: CustomDissolve
@@ -645,6 +645,29 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: Custom/PolylineUnlit
+    simpleName: PolylineUnlit
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -5910,6 +5933,17 @@ MonoBehaviour:
     - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: Meta/EnvironmentDepth/Preprocessing
+    simpleName: Preprocessing
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
@@ -11357,6 +11391,20 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: UI/IDF Prerendered
+    simpleName: IDF Prerendered
+    isExpanded: 0
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: ALPHA_SQUARED
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
