@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
   m_Name: BuiltShaders
   m_EditorClassIdentifier: 
-  creationDateTicks: 638622084276804571
+  creationDateTicks: 639308763911663021
   shaders:
   - name: 3y3net/CustomDissolve
     simpleName: CustomDissolve
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -48,7 +48,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -63,13 +63,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SOFT
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_CUBE
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
@@ -81,7 +81,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -122,7 +122,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -137,13 +137,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SOFT
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_CUBE
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: UNITY_HDR_ON
       includeInBuild: 1
@@ -161,7 +161,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -196,7 +196,7 @@ MonoBehaviour:
       includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: VERTEXLIGHT_ON
       includeInBuild: 1
@@ -246,7 +246,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: DYNAMICLIGHTMAP_ON
       includeInBuild: 1
@@ -293,7 +293,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
@@ -305,13 +305,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
     variants: []
   - name: ASESampleShaders/Community/TFHC/Hologram Simple
     simpleName: Hologram Simple
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -337,7 +337,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -450,7 +450,7 @@ MonoBehaviour:
     variants: []
   - name: ASESampleShaders/MultiPassDistortion
     simpleName: MultiPassDistortion
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -611,7 +611,7 @@ MonoBehaviour:
     variants: []
   - name: Custom/AlphaProgress
     simpleName: AlphaProgress
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -628,7 +628,7 @@ MonoBehaviour:
     variants: []
   - name: Custom/OutlineFFS
     simpleName: OutlineFFS
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -704,7 +704,7 @@ MonoBehaviour:
     variants: []
   - name: Custom/PolylineUnlit
     simpleName: PolylineUnlit
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -727,7 +727,7 @@ MonoBehaviour:
     variants: []
   - name: Custom/SteamVR_AlphaOut
     simpleName: SteamVR_AlphaOut
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -744,7 +744,7 @@ MonoBehaviour:
     variants: []
   - name: Custom/SteamVR_ClearAll
     simpleName: SteamVR_ClearAll
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -761,7 +761,7 @@ MonoBehaviour:
     variants: []
   - name: Custom/SteamVR_ColorOut
     simpleName: SteamVR_ColorOut
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -778,7 +778,7 @@ MonoBehaviour:
     variants: []
   - name: Custom/SteamVR_Fade
     simpleName: SteamVR_Fade
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -798,7 +798,7 @@ MonoBehaviour:
     variants: []
   - name: Custom/SteamVR_SphericalProjection
     simpleName: SteamVR_SphericalProjection
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -815,7 +815,7 @@ MonoBehaviour:
     variants: []
   - name: Custom/TransparentHighLight
     simpleName: TransparentHighLight
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -823,16 +823,19 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
     variants: []
   - name: DestructibleProps/CorridorLamp
     simpleName: CorridorLamp
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -911,7 +914,7 @@ MonoBehaviour:
     variants: []
   - name: Effects/Explosions/Distortion/ParticlesCutOut
     simpleName: ParticlesCutOut
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -931,7 +934,7 @@ MonoBehaviour:
     variants: []
   - name: Effects/Explosions/Particles/Alpha Blended
     simpleName: Alpha Blended
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -951,7 +954,7 @@ MonoBehaviour:
     variants: []
   - name: Effects/FPS_Pack/AlphaBlended
     simpleName: AlphaBlended
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -974,7 +977,7 @@ MonoBehaviour:
     variants: []
   - name: Effects/FPS_Pack/GlowAdditiveNoFade
     simpleName: GlowAdditiveNoFade
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -997,7 +1000,7 @@ MonoBehaviour:
     variants: []
   - name: Effects/FPS_Pack/ProjectorAlphaBlended
     simpleName: ProjectorAlphaBlended
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1014,7 +1017,7 @@ MonoBehaviour:
     variants: []
   - name: Effects/Multiply (Double)
     simpleName: Multiply (Double)
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1028,7 +1031,7 @@ MonoBehaviour:
     variants: []
   - name: Effects/WeaponFX/Additive
     simpleName: Additive
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1051,7 +1054,7 @@ MonoBehaviour:
     variants: []
   - name: Effects/WeaponFX/Blended
     simpleName: Blended
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1065,7 +1068,7 @@ MonoBehaviour:
     variants: []
   - name: Effects/WeaponFX/Blended Light
     simpleName: Blended Light
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1220,7 +1223,7 @@ MonoBehaviour:
     variants: []
   - name: Effects3y3/EffectsShader
     simpleName: EffectsShader
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1260,6 +1263,17 @@ MonoBehaviour:
     - keyword: INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: FFS/Blood Mask PBR
+    simpleName: Blood Mask PBR
+    isExpanded: 1
+    includeInBuild: 1
+    type: 1
+    keywords:
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
@@ -1391,7 +1405,7 @@ MonoBehaviour:
     variants: []
   - name: FFS/ddTVStatic
     simpleName: ddTVStatic
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1409,9 +1423,198 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 0
     variants: []
+  - name: FFS/Legacy Reveal
+    simpleName: Legacy Reveal
+    isExpanded: 1
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: FFS/LegacyRevealCutout
+    simpleName: LegacyRevealCutout
+    isExpanded: 1
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: FFS/Mobile VR Packed Metal
+    simpleName: Mobile VR Packed Metal
+    isExpanded: 1
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _METALLIC_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _NORMALMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _REFLECTIONS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DIRECT_SPECULAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _SMOOTHNESS_NORMAL_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _EMISSION
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
   - name: FFS/OutlineOnlyFFS
     simpleName: OutlineOnlyFFS
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1419,9 +1622,136 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: FFS/Standard Reveal PBR
+    simpleName: Standard Reveal PBR
+    isExpanded: 1
+    includeInBuild: 0
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: FFS/Standard Reveal PBR Cutout
+    simpleName: Standard Reveal PBR Cutout
+    isExpanded: 1
+    includeInBuild: 0
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -1472,6 +1802,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -1551,7 +1884,7 @@ MonoBehaviour:
     variants: []
   - name: GUI/3D Text Shader
     simpleName: 3D Text Shader
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1568,7 +1901,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/BlitCopy
     simpleName: BlitCopy
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1585,7 +1918,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/BlitCopyDepth
     simpleName: BlitCopyDepth
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1602,7 +1935,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/BlitCopyHDRTonemap
     simpleName: BlitCopyHDRTonemap
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1616,7 +1949,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/BlitCopyWithDepth
     simpleName: BlitCopyWithDepth
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1633,7 +1966,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/BlitToDepth
     simpleName: BlitToDepth
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1650,7 +1983,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/BlitToDepth_MSAA
     simpleName: BlitToDepth_MSAA
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1667,7 +2000,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Compositing
     simpleName: Compositing
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1684,7 +2017,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/ConvertTexture
     simpleName: ConvertTexture
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1701,7 +2034,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/CubeBlend
     simpleName: CubeBlend
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1718,7 +2051,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/CubeBlur
     simpleName: CubeBlur
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1735,7 +2068,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/CubeCopy
     simpleName: CubeCopy
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1750,23 +2083,9 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 1
     variants: []
-  - name: Hidden/DepthOverwrite
-    simpleName: DepthOverwrite
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
   - name: Hidden/FastBlur
     simpleName: FastBlur
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1780,7 +2099,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/GIDebug/TextureUV
     simpleName: TextureUV
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1791,7 +2110,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/GIDebug/UV1sAsPositions
     simpleName: UV1sAsPositions
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -1800,93 +2119,9 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 1
     variants: []
-  - name: Hidden/Imposter_AlphaBlended
-    simpleName: Imposter_AlphaBlended
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: Hidden/Imposter_AlphaCutout
-    simpleName: Imposter_AlphaCutout
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: Hidden/Imposter_AlphaToMask
-    simpleName: Imposter_AlphaToMask
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: Hidden/Imposter_Opaque
-    simpleName: Imposter_Opaque
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: Hidden/Imposter_Underlay
-    simpleName: Imposter_Underlay
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: Hidden/Imposter_Underlay_AA
-    simpleName: Imposter_Underlay_AA
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
   - name: Hidden/Internal-CombineDepthNormals
     simpleName: Internal-CombineDepthNormals
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -2365,7 +2600,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Kronnect/Beautify/BeautifyBasic
     simpleName: BeautifyBasic
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -2447,7 +2682,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Kronnect/Beautify/CopyDepth
     simpleName: CopyDepth
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -2461,7 +2696,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Kronnect/Beautify/CopyDepthBiased
     simpleName: CopyDepthBiased
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -2981,7 +3216,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Nature/Tree Creator Albedo Rendertex
     simpleName: Tree Creator Albedo Rendertex
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -2998,7 +3233,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Nature/Tree Creator Bark Optimized
     simpleName: Tree Creator Bark Optimized
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -3021,7 +3256,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: BILLBOARD_FACE_CAMERA_POS
       includeInBuild: 1
@@ -3054,7 +3289,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -3063,7 +3298,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Nature/Tree Creator Bark Rendertex
     simpleName: Tree Creator Bark Rendertex
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -3183,7 +3418,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Nature/Tree Creator Leaves Rendertex
     simpleName: Tree Creator Leaves Rendertex
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -3217,7 +3452,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Nature/Tree Soft Occlusion Bark Rendertex
     simpleName: Tree Soft Occlusion Bark Rendertex
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -3234,7 +3469,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Nature/Tree Soft Occlusion Leaves Rendertex
     simpleName: Tree Soft Occlusion Leaves Rendertex
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -3353,7 +3588,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/Shader Graph/FallbackError
     simpleName: FallbackError
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4187,7 +4422,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/TerrainEngine/TerrainLayerUtils
     simpleName: TerrainLayerUtils
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4201,7 +4436,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/TextCore/Distance Field SSD
     simpleName: Distance Field SSD
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4213,23 +4448,20 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 1
     variants: []
-  - name: Hidden/UnderlayTransparentOccluderImposter
-    simpleName: UnderlayTransparentOccluderImposter
+  - name: Hidden/UIElements/EditorUIE
+    simpleName: EditorUIE
     isExpanded: 0
     includeInBuild: 1
     type: 1
     keywords:
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
       includeInVariant: 0
-    isInternal: 0
+    isInternal: 1
     variants: []
   - name: Hidden/VideoComposite
     simpleName: VideoComposite
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4243,7 +4475,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/VideoDecode
     simpleName: VideoDecode
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4263,7 +4495,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/VideoDecodeAndroid
     simpleName: VideoDecodeAndroid
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4285,7 +4517,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: VLB_SHADER_ACCURACY_HIGH
       includeInBuild: 1
@@ -4312,7 +4544,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
@@ -4324,7 +4556,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/VR/BlitFromTex2DToTexArraySlice
     simpleName: BlitFromTex2DToTexArraySlice
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4338,7 +4570,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/VR/BlitTexArraySlice
     simpleName: BlitTexArraySlice
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4355,7 +4587,7 @@ MonoBehaviour:
     variants: []
   - name: Hidden/VR/BlitTexArraySliceToDepth
     simpleName: BlitTexArraySliceToDepth
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4389,7 +4621,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/ClearStencil
     simpleName: ClearStencil
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4406,7 +4638,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/BlurGlow
     simpleName: BlurGlow
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4423,7 +4655,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/BlurOutline
     simpleName: BlurOutline
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4440,7 +4672,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/ComposeGlow
     simpleName: ComposeGlow
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4474,7 +4706,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/Glow
     simpleName: Glow
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4494,7 +4726,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/InnerGlow
     simpleName: InnerGlow
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4514,7 +4746,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/JustDepth
     simpleName: JustDepth
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4531,7 +4763,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/Mask
     simpleName: Mask
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4554,7 +4786,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/Outline
     simpleName: Outline
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4577,7 +4809,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/Overlay
     simpleName: Overlay
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4597,7 +4829,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/SeeThroughBorder
     simpleName: SeeThroughBorder
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4617,7 +4849,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/SeeThroughInner
     simpleName: SeeThroughInner
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4637,7 +4869,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/SeeThroughOccluder
     simpleName: SeeThroughOccluder
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4654,7 +4886,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/SolidColor
     simpleName: SolidColor
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4677,7 +4909,7 @@ MonoBehaviour:
     variants: []
   - name: HighlightPlus/Geometry/Target
     simpleName: Target
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4728,7 +4960,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: _MOBILEDEPTH_ON
       includeInBuild: 1
@@ -4746,7 +4978,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -4787,7 +5019,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -4814,7 +5046,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -4855,7 +5087,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -4882,7 +5114,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -4926,7 +5158,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -4953,7 +5185,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -4962,7 +5194,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Diffuse Detail
     simpleName: Diffuse Detail
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -4997,7 +5229,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -5017,6 +5249,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Legacy Shaders/Particles/Additive
@@ -5032,13 +5267,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -5047,7 +5282,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Particles/Additive (Soft)
     simpleName: Additive (Soft)
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -5058,13 +5293,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -5073,7 +5308,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Particles/Alpha Blended
     simpleName: Alpha Blended
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -5084,13 +5319,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -5099,7 +5334,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Particles/Alpha Blended Premultiply
     simpleName: Alpha Blended Premultiply
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -5119,7 +5354,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Particles/Multiply
     simpleName: Multiply
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -5139,7 +5374,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Particles/VertexLit Blended
     simpleName: VertexLit Blended
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -5463,7 +5698,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Self-Illumin/VertexLit
     simpleName: VertexLit
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -5651,7 +5886,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -5704,7 +5939,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -5731,7 +5966,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -5748,10 +5983,10 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -5774,7 +6009,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
       includeInBuild: 1
@@ -5789,7 +6024,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -5827,7 +6062,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -5848,7 +6083,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -5857,7 +6092,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/Transparent/VertexLit
     simpleName: VertexLit
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -5871,13 +6106,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -5886,7 +6121,7 @@ MonoBehaviour:
     variants: []
   - name: Legacy Shaders/VertexLit
     simpleName: VertexLit
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -5900,7 +6135,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
       includeInBuild: 1
@@ -5915,7 +6150,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -5991,13 +6226,86 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 0
     variants: []
-  - name: Meta/EnvironmentDepth/Preprocessing
-    simpleName: Preprocessing
-    isExpanded: 0
+  - name: Meta/EnvironmentDepth/DepthMask
+    simpleName: DepthMask
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
     - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: Meta/EnvironmentDepth/Preprocessing
+    simpleName: Preprocessing
+    isExpanded: 1
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    variants: []
+  - name: Meta/Lit
+    simpleName: Lit
+    isExpanded: 1
+    includeInBuild: 1
+    type: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_MULTIVIEW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 0
@@ -6770,7 +7078,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: UNITY_HDR_ON
       includeInBuild: 1
@@ -6779,7 +7087,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: DYNAMICLIGHTMAP_ON
       includeInBuild: 0
@@ -6799,13 +7107,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -6822,13 +7130,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -6845,13 +7153,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -6860,7 +7168,7 @@ MonoBehaviour:
     variants: []
   - name: Mobile/Particles/VertexLit Blended
     simpleName: VertexLit Blended
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -6874,13 +7182,16 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
+      includeInBuild: 0
+      includeInVariant: 0
+    - keyword: FOG_EXP
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
     variants: []
   - name: Mobile/Skybox
     simpleName: Skybox
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -6899,10 +7210,10 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -6925,7 +7236,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
       includeInBuild: 1
@@ -6937,7 +7248,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -7360,7 +7671,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
@@ -7372,7 +7683,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -7891,7 +8202,7 @@ MonoBehaviour:
     variants: []
   - name: NOT_Lonely/NOT_Lonely_Cobweb
     simpleName: NOT_Lonely_Cobweb
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -7926,7 +8237,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -7956,7 +8267,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -7965,7 +8276,7 @@ MonoBehaviour:
     variants: []
   - name: NOT_Lonely/NOT_Lonely_Decals
     simpleName: NOT_Lonely_Decals
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -7997,7 +8308,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -8033,7 +8344,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -8275,7 +8586,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
@@ -8287,7 +8598,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -8407,7 +8718,7 @@ MonoBehaviour:
     variants: []
   - name: Oculus/Cubemap Blit
     simpleName: Cubemap Blit
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8424,7 +8735,7 @@ MonoBehaviour:
     variants: []
   - name: Oculus/OVRMRCameraFrame
     simpleName: OVRMRCameraFrame
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8441,7 +8752,7 @@ MonoBehaviour:
     variants: []
   - name: Oculus/OVRMRCameraFrameLit
     simpleName: OVRMRCameraFrameLit
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8467,7 +8778,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -8500,7 +8811,7 @@ MonoBehaviour:
     variants: []
   - name: Oculus/Texture2D Blit
     simpleName: Texture2D Blit
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8517,7 +8828,7 @@ MonoBehaviour:
     variants: []
   - name: Oculus/Underlay Impostor
     simpleName: Underlay Impostor
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8549,7 +8860,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -8594,7 +8905,7 @@ MonoBehaviour:
     variants: []
   - name: Oculus/Underlay Transparent Occluder
     simpleName: Underlay Transparent Occluder
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8662,7 +8973,7 @@ MonoBehaviour:
     variants: []
   - name: Oculus/Unlit
     simpleName: Unlit
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8685,7 +8996,7 @@ MonoBehaviour:
     variants: []
   - name: Oculus/Unlit Transparent Color
     simpleName: Unlit Transparent Color
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8702,7 +9013,7 @@ MonoBehaviour:
     variants: []
   - name: Oculus/UnlitTransparent
     simpleName: UnlitTransparent
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -8867,6 +9178,9 @@ MonoBehaviour:
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
+    - keyword: FOG_EXP
+      includeInBuild: 1
+      includeInVariant: 0
     isInternal: 0
     variants: []
   - name: OneBatchStandard
@@ -8909,7 +9223,7 @@ MonoBehaviour:
       includeInBuild: 0
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -8970,617 +9284,6 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 0
     variants: []
-  - name: OvrAvatar/Avatar_EyeLens
-    simpleName: Avatar_EyeLens
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/Avatar_Mobile_CombinedMesh
-    simpleName: Avatar_Mobile_CombinedMesh
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: SECONDARY_LIGHT_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SECONDARY_LIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/Avatar_Mobile_CombinedMeshExpressive
-    simpleName: Avatar_Mobile_CombinedMeshExpressive
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: SECONDARY_LIGHT_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SECONDARY_LIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/Avatar_Mobile_Loader
-    simpleName: Avatar_Mobile_Loader
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/Avatar_Mobile_SingleComponent
-    simpleName: Avatar_Mobile_SingleComponent
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: SECONDARY_LIGHT_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SECONDARY_LIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/Avatar_Mobile_SingleComponentExpressive
-    simpleName: Avatar_Mobile_SingleComponentExpressive
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: SECONDARY_LIGHT_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SECONDARY_LIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/Avatar_PC_SingleComponent
-    simpleName: Avatar_PC_SingleComponent
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: DIRECTIONAL
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTPROBE_SH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SHADOWMASK
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRLIGHTMAP_COMBINED
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_SHADOW_MIXING
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTEXLIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_LINEAR
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SPOT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRECTIONAL_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SOFT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_CUBE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_HDR_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DYNAMICLIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_EXP
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/Avatar_PC_SingleComponentExpressive
-    simpleName: Avatar_PC_SingleComponentExpressive
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: DIRECTIONAL
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTPROBE_SH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SHADOWMASK
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRLIGHTMAP_COMBINED
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_SHADOW_MIXING
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTEXLIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_LINEAR
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SPOT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRECTIONAL_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SOFT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_CUBE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_HDR_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DYNAMICLIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_EXP
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/AvatarPBRV2Simple
-    simpleName: AvatarPBRV2Simple
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: DIRECTIONAL
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTPROBE_SH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SHADOWMASK
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRLIGHTMAP_COMBINED
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_SHADOW_MIXING
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTEXLIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_LINEAR
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SPOT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRECTIONAL_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SOFT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_CUBE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_HDR_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DYNAMICLIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_EXP
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/AvatarSurfaceShader
-    simpleName: AvatarSurfaceShader
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: PROJECTOR_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: NORMAL_MAP_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: PARALLAX_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: ROUGHNESS_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTALPHA_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_1
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_2
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_3
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_4
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_5
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_6
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_7
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_8
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTALPHA_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: ROUGHNESS_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: PARALLAX_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: NORMAL_MAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: PROJECTOR_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/AvatarSurfaceShaderPBS
-    simpleName: AvatarSurfaceShaderPBS
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRECTIONAL
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTPROBE_SH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTEXLIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_LINEAR
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_EXP
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/AvatarSurfaceShaderPBSV2
-    simpleName: AvatarSurfaceShaderPBSV2
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: DIRECTIONAL
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTPROBE_SH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SHADOWMASK
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRLIGHTMAP_COMBINED
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LIGHTMAP_SHADOW_MIXING
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SCREEN
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTEXLIGHT_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_LINEAR
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SPOT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: POINT_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DIRECTIONAL_COOKIE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_SOFT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: SHADOWS_CUBE
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_HDR_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: DYNAMICLIGHTMAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: FOG_EXP
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
-  - name: OvrAvatar/AvatarSurfaceShaderSelfOccluding
-    simpleName: AvatarSurfaceShaderSelfOccluding
-    isExpanded: 0
-    includeInBuild: 0
-    type: 1
-    keywords:
-    - keyword: UNITY_SINGLE_PASS_STEREO
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: PROJECTOR_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: NORMAL_MAP_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: PARALLAX_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: ROUGHNESS_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTALPHA_OFF
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_1
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_2
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_3
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_4
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_5
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_6
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_7
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: LAYERS_8
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: VERTALPHA_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: ROUGHNESS_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: PARALLAX_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: NORMAL_MAP_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: PROJECTOR_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
   - name: Particles/Additive (Soft + Mult)
     simpleName: Additive (Soft + Mult)
     isExpanded: 1
@@ -9594,7 +9297,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
@@ -9603,7 +9306,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -9708,7 +9411,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SPECULAR_REFLECTION_OFF
       includeInBuild: 1
@@ -9723,7 +9426,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -9825,7 +9528,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SHADOWMASK
       includeInBuild: 0
@@ -9840,7 +9543,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
@@ -9849,6 +9552,9 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _ALPHAPREMULTIPLY_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _EMISSION
       includeInBuild: 1
       includeInVariant: 0
     isInternal: 1
@@ -9875,7 +9581,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SOFTPARTICLES_ON
       includeInBuild: 1
@@ -9896,7 +9602,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: UNITY_SINGLE_PASS_STEREO
       includeInBuild: 1
@@ -10174,7 +9880,7 @@ MonoBehaviour:
     variants: []
   - name: Projector/LightStrongInstanced
     simpleName: LightStrongInstanced
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10188,7 +9894,7 @@ MonoBehaviour:
     variants: []
   - name: Projector/Multiply
     simpleName: Multiply
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10248,7 +9954,7 @@ MonoBehaviour:
     variants: []
   - name: RealisticWater/ParticlesCutOut
     simpleName: ParticlesCutOut
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10320,7 +10026,7 @@ MonoBehaviour:
     variants: []
   - name: RufatShaderlab/Blur
     simpleName: Blur
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10434,7 +10140,7 @@ MonoBehaviour:
     variants: []
   - name: Simon Mercuzot/RedDot
     simpleName: RedDot
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10468,10 +10174,10 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -10504,7 +10210,7 @@ MonoBehaviour:
     variants: []
   - name: Skybox/6 Sided
     simpleName: 6 Sided
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10521,7 +10227,7 @@ MonoBehaviour:
     variants: []
   - name: Skybox/Cubemap
     simpleName: Cubemap
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10538,7 +10244,7 @@ MonoBehaviour:
     variants: []
   - name: Skybox/Procedural
     simpleName: Procedural
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10564,7 +10270,7 @@ MonoBehaviour:
     variants: []
   - name: Sprites/Default
     simpleName: Default
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10590,7 +10296,7 @@ MonoBehaviour:
     variants: []
   - name: Sprites/Mask
     simpleName: Mask
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -10651,7 +10357,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: _PARALLAXMAP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: _METALLICGLOSSMAP
       includeInBuild: 1
@@ -10681,7 +10387,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -10696,13 +10402,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SOFT
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_CUBE
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: UNITY_HDR_ON
       includeInBuild: 1
@@ -10714,7 +10420,7 @@ MonoBehaviour:
       includeInBuild: 0
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -10761,7 +10467,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -10776,13 +10482,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SOFT
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_CUBE
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: UNITY_HDR_ON
       includeInBuild: 1
@@ -10797,7 +10503,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -10945,7 +10651,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -10960,13 +10666,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SOFT
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_CUBE
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: UNITY_HDR_ON
       includeInBuild: 1
@@ -10981,7 +10687,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -11037,7 +10743,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -11052,13 +10758,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SOFT
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_CUBE
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: DYNAMICLIGHTMAP_OFF
       includeInBuild: 1
@@ -11082,7 +10788,7 @@ MonoBehaviour:
       includeInBuild: 0
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -11091,7 +10797,7 @@ MonoBehaviour:
     variants: []
   - name: TextMeshPro/Bitmap
     simpleName: Bitmap
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11114,7 +10820,7 @@ MonoBehaviour:
     variants: []
   - name: TextMeshPro/Bitmap Custom Atlas
     simpleName: Bitmap Custom Atlas
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11137,7 +10843,7 @@ MonoBehaviour:
     variants: []
   - name: TextMeshPro/Distance Field
     simpleName: Distance Field
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11186,7 +10892,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -11213,7 +10919,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -11222,7 +10928,7 @@ MonoBehaviour:
     variants: []
   - name: TextMeshPro/Distance Field Overlay
     simpleName: Distance Field Overlay
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11248,7 +10954,7 @@ MonoBehaviour:
     variants: []
   - name: TextMeshPro/Mobile/Bitmap
     simpleName: Bitmap
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11271,7 +10977,7 @@ MonoBehaviour:
     variants: []
   - name: TextMeshPro/Mobile/Distance Field
     simpleName: Distance Field
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11300,7 +11006,7 @@ MonoBehaviour:
     variants: []
   - name: TextMeshPro/Mobile/Distance Field - Masking
     simpleName: Distance Field - Masking
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11340,7 +11046,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
       includeInBuild: 1
@@ -11355,7 +11061,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -11387,7 +11093,7 @@ MonoBehaviour:
     variants: []
   - name: TextMeshPro/Sprite
     simpleName: Sprite
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11410,7 +11116,7 @@ MonoBehaviour:
     variants: []
   - name: UI/Default
     simpleName: Default
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11431,29 +11137,9 @@ MonoBehaviour:
       includeInVariant: 0
     isInternal: 1
     variants: []
-  - name: UI/Default (Overlay)
-    simpleName: Default (Overlay)
-    isExpanded: 0
-    includeInBuild: 1
-    type: 1
-    keywords:
-    - keyword: STEREO_INSTANCING_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_UI_ALPHACLIP
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: UNITY_UI_CLIP_RECT
-      includeInBuild: 1
-      includeInVariant: 0
-    - keyword: STEREO_MULTIVIEW_ON
-      includeInBuild: 1
-      includeInVariant: 0
-    isInternal: 0
-    variants: []
   - name: UI/IDF Prerendered
     simpleName: IDF Prerendered
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11467,7 +11153,7 @@ MonoBehaviour:
     variants: []
   - name: UI/Overlay
     simpleName: Overlay
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11492,13 +11178,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -11507,7 +11193,7 @@ MonoBehaviour:
     variants: []
   - name: Unlit/seeThruWalls
     simpleName: seeThruWalls
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11515,7 +11201,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
@@ -11530,7 +11216,7 @@ MonoBehaviour:
     variants: []
   - name: Unlit/Texture
     simpleName: Texture
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11538,7 +11224,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
@@ -11553,7 +11239,7 @@ MonoBehaviour:
     variants: []
   - name: Unlit/Transparent
     simpleName: Transparent
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11561,13 +11247,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -11576,7 +11262,7 @@ MonoBehaviour:
     variants: []
   - name: Unlit/TransparentColor
     simpleName: TransparentColor
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11584,7 +11270,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
@@ -11599,7 +11285,7 @@ MonoBehaviour:
     variants: []
   - name: Valve/VR/Highlight
     simpleName: Highlight
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11616,7 +11302,7 @@ MonoBehaviour:
     variants: []
   - name: Valve/VR/HighlightBillboard
     simpleName: HighlightBillboard
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11636,7 +11322,7 @@ MonoBehaviour:
     variants: []
   - name: Valve/VR/Silhouette
     simpleName: Silhouette
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11831,7 +11517,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Bleeding
     simpleName: Bleeding
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11848,7 +11534,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/ChromaticAberration
     simpleName: ChromaticAberration
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11865,7 +11551,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Composite
     simpleName: Composite
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11882,7 +11568,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Noise
     simpleName: Noise
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11899,7 +11585,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Scanline
     simpleName: Scanline
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11916,7 +11602,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Static
     simpleName: Static
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11933,7 +11619,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Television
     simpleName: Television
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11950,7 +11636,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Filter/Tube
     simpleName: Tube
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11967,7 +11653,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Filters/OLD TV Screen Effect
     simpleName: OLD TV Screen Effect
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -11984,7 +11670,7 @@ MonoBehaviour:
     variants: []
   - name: Vortex Game Studios/Materials/OLD TV Filter/Standard
     simpleName: Standard
-    isExpanded: 0
+    isExpanded: 1
     includeInBuild: 1
     type: 1
     keywords:
@@ -12016,7 +11702,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: POINT
       includeInBuild: 1
@@ -12031,13 +11717,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: SHADOWS_DEPTH
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_SOFT
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: SHADOWS_CUBE
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: UNITY_HDR_ON
       includeInBuild: 1
@@ -12052,7 +11738,7 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: STEREO_MULTIVIEW_ON
       includeInBuild: 1
@@ -12083,13 +11769,13 @@ MonoBehaviour:
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_LINEAR
-      includeInBuild: 1
+      includeInBuild: 0
       includeInVariant: 0
     - keyword: STEREO_INSTANCING_ON
       includeInBuild: 1
       includeInVariant: 0
     - keyword: FOG_EXP
-      includeInBuild: 0
+      includeInBuild: 1
       includeInVariant: 0
     - keyword: INSTANCING_ON
       includeInBuild: 1
@@ -12256,4 +11942,4 @@ MonoBehaviour:
     isInternal: 0
     variants: []
   sortType: 0
-  viewType: 0
+  viewType: 1
